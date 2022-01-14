@@ -1,0 +1,18 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid; /*De esta manera el contenedor se vuelve una grilla*/
+/*    grid-template-columns: 100px 200px 300px; /*le decimos que solo pueden haber 3 columnas, si hay mas items, estos van a la siguiente fila*/
+/*    grid-template-rows: 150px 250px; /*le decimos cuantas filas tiene que tener este contenedor*/
+/*    grid-auto-rows: 150px; /*De esta manera todas las filas tienen el mismo espacio*/
+    grid-auto-flow: column; /*Crea nuevas columnas en ves de crear mas filas*/
+    grid-template-rows: 100px 200px; /*Se invierten las columnas y ahora crece de para abajo*/
+    grid-auto-columns: 100px; /*De esta manera todas las columnas que no se especifican tienen ese espacio*/
+    row-gap: 15px;
+    column-gap: 30px;
+/*    gap: 40px; /*Esta funcion nos permite hacer un espacio tanto en row como en column del mismo valor*/
+}
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}

@@ -11,3 +11,6 @@
 .info-button{
     width: 128px;
 }
+.dishes-grid{
+    grid-template-columns: repeat(auto-fit, minmax(75px,140px));
+}

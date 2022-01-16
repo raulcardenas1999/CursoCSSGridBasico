@@ -1,0 +1,13 @@
+.info-title{
+    text-align: center;
+}
+.info-subtitle{
+    text-align: center;
+}
+.info{
+    display: grid;
+    justify-items: center;
+}
+.info-button{
+    width: 128px;
+}
